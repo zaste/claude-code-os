@@ -1,0 +1,52 @@
+{
+  "version": "1.0.0",
+  "analytics": {
+    "enabled": true,
+    "anonymous": true,
+    "track_patterns": true,
+    "track_effectiveness": true,
+    "track_errors": false
+  },
+  "features": {
+    "auto_update": true,
+    "progressive_enhancement": true,
+    "custom_commands": true,
+    "team_sync": false,
+    "memory_persistence": true
+  },
+  "performance": {
+    "context_management": "balanced",
+    "response_streaming": true,
+    "code_generation": "quality_first",
+    "token_optimization": "smart"
+  },
+  "quality_gates": {
+    "security": {
+      "enabled": true,
+      "level": "strict"
+    },
+    "performance": {
+      "enabled": true,
+      "level": "balanced"
+    },
+    "maintainability": {
+      "enabled": true,
+      "level": "strict"
+    },
+    "testing": {
+      "enabled": true,
+      "level": "recommended"
+    }
+  },
+  "privacy": {
+    "no_code_sharing": true,
+    "no_pii": true,
+    "local_processing": true,
+    "opt_out_available": true
+  },
+  "customization": {
+    "allow_overrides": true,
+    "merge_strategy": "deep",
+    "reload_on_change": true
+  }
+}
