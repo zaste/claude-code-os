@@ -1,0 +1,33 @@
+# Claude Code OS
+.claude/memory/decisions.log
+.claude/memory/context.json
+.claude/team/local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencies
+node_modules/
+*.log
+
+# Build
+dist/
+build/
+*.tmp
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Analytics
+analytics-data/
+metrics-cache/
